@@ -30,6 +30,9 @@ Create a lightweight search engine which
         2) look up every term on inverted index and build the result set
         3) modify the rank of results using TF (Extra points if you also implement IDF)
 - exposes 2 REST API endpoints; one for indexing data and another for searching
+- along with normal search, it should also have functionality to do `phrase queries`. A phrase query does a search based on the phrases instead of individual term based search. ie "fox brown" should match documents with fox and brown that appears together
+- bonus point: add caching for the phrase based queries
+
 
 ### Example
 
@@ -101,6 +104,8 @@ GET /search?q=quick%20dog
 ### Directions
 
 - you can use any programming language of your choice
+- try and complete the assignment is given time. It's totally fine even if it's not complete. We would love to check the assignment anyway.
+- keeping above point in mind, attempt the assignment in the order that it is mentioned.
 - you should design your solution keeping scalability in mind, a search engine is usually scalable to terrabytes of data
 - call us if you have any trouble understading anything
 
