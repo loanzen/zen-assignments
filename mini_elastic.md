@@ -2,7 +2,7 @@
 # SimpleElastic
 A simple elasticsearch like search engine of your own.
 
-Before starting on this assignment you will need to do a little bit of reading (unless offcourse, if you are already familiar with these).
+Before starting on this assignment you will need to do a little bit of reading (unless off course, if you are already familiar with these).
 
 Get a context on following things
 
