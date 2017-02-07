@@ -104,8 +104,8 @@ GET /search?q=quick%20dog
 ### Directions
 
 - you can use any programming language of your choice
-- try and complete the assignment is given time. It's totally fine even if it's not complete. We would love to check the assignment anyway.
-- keeping above point in mind, attempt the assignment in the order that it is mentioned.
+- try and complete the assignment in given time. It's totally fine if it's not complete. We would love to see the assignment anyway.
+- keeping above point in mind, attempt the tasks in the order that they are mentioned.
 - you should design your solution keeping scalability in mind, a search engine is usually scalable to terrabytes of data
 - call us if you have any trouble understading anything
 
