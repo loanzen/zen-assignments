@@ -23,10 +23,10 @@ Follow the links below to give it a read. (You are free to explore on your own t
 Create a lightweight search engine which
 
 - indexes documents into inverted index and saves them on disk for searching on them later
-- allows searching on previously indexed items; search works as follows
-        * break every search query into different terms (words/token)
-        * look up every term on inverted index and build the result set
-        * modify the rank of results using TF (Extra points if you also implement IDF)
+- allows searching on previously indexed items; search works as follows: 
+        1) break every search query into different terms (words/token)
+        2) look up every term on inverted index and build the result set
+        3) modify the rank of results using TF (Extra points if you also implement IDF)
 - exposes 2 REST API endpoints; one for indexing data and another for searching
 
 ### Example
