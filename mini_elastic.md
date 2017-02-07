@@ -61,15 +61,41 @@ GET /search?q=quick%20fox
 
 [
 {
-"id": "1",
-"title": "quick fox",
-"data": "A fox is usually quick and brown."
+    "id": "1",
+    "title": "quick fox",
+    "data": "A fox is usually quick and brown."
 },
 {
     "id": "2",
     "title": "lazy dog"
     "data": "A quick brown fox jumped over lazy dog. A fox is always jumping."
 }]
+
+
+GET /search?q=dog
+
+[
+{
+    "id": "2",
+    "title": "lazy dog"
+    "data": "A quick brown fox jumped over lazy dog. A fox is always jumping."
+}]
+
+
+GET /search?q=quick%20dog
+
+[
+{
+    "id": "2",
+    "title": "lazy dog"
+    "data": "A quick brown fox jumped over lazy dog. A fox is always jumping."
+},
+{
+    "id": "1",
+    "title": "quick fox",
+    "data": "A fox is usually quick and brown."
+}]
+
 ```
 
 ### Directions
