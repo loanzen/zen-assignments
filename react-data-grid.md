@@ -15,20 +15,19 @@ There are two parts to this assignment
   - Configurable Look and Feel as much as possible (Bonus Point)
   - Infinite scroll (Bonus Point)
   
-2) Create an example project for this reusable data grid component. An example dataset is provided. 
+2) Create an example project for this reusable data grid component. An example dataset is provided `react-data-grid-data.json`. 
+
 Ideally the application will have two page
+
   - Upload a json/csv file with the dataset that is stored in the browser
-  - Data grid representing this data and some filters designed for this data. The component 
-  fetching the data should be written in a way that it should be easy to replace local dataset
-  with an api.
+  - Data grid representing this data and some filters designed for this data. The component fetching the data should be written in a way that it should be easy to replace local dataset with an api.
 
 
 ### Directions
 - You must use es6 + reactjs for this assignment. Recommend Use [create-react-app](https://github.com/facebookincubator/create-react-app)
 for bootstraping.
-- Scope of the assignment is intentionally kept broad, so it's totally fine if it's not complete in the stipulated time. 
-We would love to see the assignment anyway.
-- keeping above point in mind, attempt the tasks in the order that they are mentioned.
+- Scope of the assignment is intentionally kept broad, so it's totally fine if it's not complete in the stipulated time. We would love to see the assignment anyway.
+- Keeping above point in mind, attempt the tasks in the order that they are mentioned.
 - call us if you have any trouble understading anything
 - most importantly, have fun building it :) :)
 
