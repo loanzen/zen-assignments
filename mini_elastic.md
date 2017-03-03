@@ -24,18 +24,19 @@ Follow the links below to give it a read. (You are free to explore on your own t
 
 Create a lightweight search engine which
 
-- indexes documents into inverted index and saves them on disk for searching on them later
+- indexes documents into inverted index and saves them on disk for searching on them later. You have to design your own algorithm and system to store and cannot use any existing database system
 - allows searching on previously indexed items; search works as follows: 
         1) break every search query into different terms (words/token)
         2) look up every term on inverted index and build the result set
         3) modify the rank of results using TF (Extra points if you also implement IDF)
 - exposes 2 REST API endpoints; one for indexing data and another for searching
 - along with normal search, it should also have functionality to do `phrase queries`. A phrase query does a search based on the phrases instead of individual term based search. ie "fox brown" should match documents with fox and brown that appears together
+- bonus point: Allow mentioning which field to be used for searching, ie if the document contains title and content, then you must be able to specify that query the string only in title field.
 - bonus point: add caching for the phrase based queries
 
+While designing this, you need to think about how would this search engine scale if you had million of documents to index and search. Think about how would you structure and store the document in file system, also think about how would you keep it in memory and access it at the time of querying. You might also need to think about how would you make this system distributed, ie  having multiple machines working together to index and search.
 
 ### Example
-
 An api endpoint for indexing
 
 ```
